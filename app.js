@@ -6,7 +6,7 @@ const chalk = require('chalk');
 const debug = require('debug')('app');
 const morgan = require('morgan');
 const app = express();
-const port = 3000;
+const port = process.env.port;
 // call modules
 const path = require('path')
 // call path
