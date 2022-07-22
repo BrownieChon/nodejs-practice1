@@ -56,7 +56,7 @@
   <h1>Products</h1>
   <div class="contanier">
     <%products.map((product)=>{%>
-      <div class="card" style="width: 18rem; margin-bottom: 10px">
+      <div class="card" style="width: 18rem; margin: 10px">
         <div class="card-body">
           <h5 class="card-title">Product name : <%=product.title%>
           </h5>
@@ -65,11 +65,12 @@
           </p>
           <a href="/products/<%=product.product_id%>" class="card-link">Details</a>
         </div>
+      </div>
           <%})%>
 
 
         
-      </div>
+      
   </div>
 </body>
 
