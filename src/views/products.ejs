@@ -56,11 +56,19 @@
   <h1>Products</h1>
   <div class="contanier">
     <%products.map((product)=>{%>
-      <h4><a href="/products/<%=product.product_id%>">Product name : <%=product.title%></a> 
-      </h4>
-      <h5>price : <%=product.prize%>
-      </h5>
-      <%})%>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Product name : <%=product.title%>
+          </h5>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">price : <%=product.prize%>
+          </p>
+          <a href="/products/<%=product.product_id%>" class="card-link">Details</a>
+          <%})%>
+
+
+        </div>
+      </div>
   </div>
 </body>
 
