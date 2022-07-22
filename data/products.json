@@ -1,8 +1,0 @@
-{
-    "products": [
-        {"title": "Shirt", "size": ["s","m","l","xl"], "prize": "299"},
-        {"title": "Shorts", "size": ["s","m","l","xl"], "prize": "399"},
-        {"title": "Shoes", "size": ["s","m","l","xl"], "prize": "599"},
-        {"title": "Coat", "size": ["s","m","l","xl"], "prize": "799"}
-    ]
-}

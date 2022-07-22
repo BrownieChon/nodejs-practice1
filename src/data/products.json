@@ -1,0 +1,46 @@
+[
+        {
+            "product_id": 0,
+            "title": "Shirt",
+            "size": [
+                "s",
+                "m",
+                "l",
+                "xl"
+            ],
+            "prize": "299"
+        },
+        {
+            "product_id": 1,
+            "title": "Shorts",
+            "size": [
+                "s",
+                "m",
+                "l",
+                "xl"
+            ],
+            "prize": "399"
+        },
+        {
+            "product_id": 2,
+            "title": "Shoes",
+            "size": [
+                "s",
+                "m",
+                "l",
+                "xl"
+            ],
+            "prize": "599"
+        },
+        {
+            "product_id": 3,
+            "title": "Coat",
+            "size": [
+                "s",
+                "m",
+                "l",
+                "xl"
+            ],
+            "prize": "799"
+        }
+    ]

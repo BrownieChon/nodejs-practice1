@@ -11,11 +11,7 @@ const port = process.env.port;
 // call modules
 const path = require('path')
 // call path
-const products = require('./data/products.json')
-// call data
-const productsRouter = express.Router();
-// call router = int_id(django)
-// end import
+const productsRouter = require('./src/router/productsRouter');
 
 app.use(morgan('combined'));
 app.use(express.static(path.join(__dirname, "/public2/")))
@@ -39,14 +35,10 @@ app.get("/", (req, res) => {
     // send respond when static fail
 })
 
-productsRouter.route("/").get((req, res) => {
-    res.render("products",products,);
-        // render("products.ejs",data/product.json)
-});
+
 
 app.use("/products", productsRouter);
-    // Set url route /product
-
+// Set url route /product
 
 // End urls pattern
 
