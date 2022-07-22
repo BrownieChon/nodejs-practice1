@@ -2,6 +2,7 @@
         {
             "product_id": 0,
             "title": "Shirt",
+            "discription":"Smooth as silk",
             "size": [
                 "s",
                 "m",
@@ -13,6 +14,7 @@
         {
             "product_id": 1,
             "title": "Shorts",
+            "discription":"light as feather",
             "size": [
                 "s",
                 "m",
@@ -24,6 +26,7 @@
         {
             "product_id": 2,
             "title": "Shoes",
+            "discription":"strong as rock",
             "size": [
                 "s",
                 "m",
@@ -35,6 +38,7 @@
         {
             "product_id": 3,
             "title": "Coat",
+            "discription":"warm as my heart",
             "size": [
                 "s",
                 "m",
